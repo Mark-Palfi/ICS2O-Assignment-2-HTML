@@ -8,10 +8,10 @@
  */
 function calculate () {
   // input
-  const r = parseInt(document.getElementById('radius-of-circle').value)
+  const r = parseInt(document.getElementById('radius-of-sphere').value)
   // process
-  const area = (3.14 * "radius-of-circle" ** 2)
+  const volume = (4 / 3 * 3.14 * "radius-of-sphere" ** 2)
 
   // output
-    "Area is: " + area + "cm^2 "
+    "volume is: " + volume + "cm^2 "
 }
