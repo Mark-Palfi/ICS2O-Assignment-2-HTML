@@ -10,7 +10,7 @@ function calculate () {
   // input
   const r = parseInt(document.getElementById('radius-of-circle').value)
   // process
-  const area = (3.14 * "radius-of-circle" ** 2)
+  const area = (Math.Pi * "radius-of-circle" ** 2)
 
   // output
     "Area is: " + area + "cm^2 "
